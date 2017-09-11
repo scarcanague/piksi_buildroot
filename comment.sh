@@ -47,3 +47,4 @@ elif [ ! -z "$GITHUB_TOKEN" ]; then
     curl -u "$GITHUB_TOKEN:" -X POST "$URL" -d "{\"body\":\"$COMMENT\"}"
 fi
 
+
